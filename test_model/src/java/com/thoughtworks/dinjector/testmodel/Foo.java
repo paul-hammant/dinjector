@@ -1,4 +1,4 @@
-package com.thoughtworks.dinjector;
+package com.thoughtworks.dinjector.testmodel;
 
 import javax.inject.Inject;
 
@@ -39,5 +39,15 @@ public class Foo {
         }
         
     }
+
+    /**
+     * This interface should move to the main 'dinjector' module, package com.thoughtworks.dinjector
+     * when the above inner class is killed in favor of a real
+     * generator.
+     */
+    public interface Instantiator {
+        Object newInstance(Object... args);
+    }
+
 
 }

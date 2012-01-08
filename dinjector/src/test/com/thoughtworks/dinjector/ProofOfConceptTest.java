@@ -29,6 +29,9 @@
  */
 package com.thoughtworks.dinjector;
 
+import com.thoughtworks.dinjector.testmodel.Bar;
+import com.thoughtworks.dinjector.testmodel.Baz;
+import com.thoughtworks.dinjector.testmodel.Foo;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;

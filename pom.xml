@@ -15,6 +15,7 @@
     <url>TODO</url>
     <modules>
         <module>dinjector</module>        
+        <module>test_model</module>        
         <module>generator</module>
         <module>maven-plugin</module>
     </modules>
